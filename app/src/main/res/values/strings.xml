@@ -4,4 +4,6 @@
     <string name="welcome">Welcome</string>
     <string name="enter_name">Please enter your name</string>
     <string name="start">START</string>
+    <string name="main_question">Which country does this flag belong to?</string>
+    <string name="btn_submit">SUBMIT</string>
 </resources>

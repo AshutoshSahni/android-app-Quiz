@@ -130,4 +130,28 @@ class QuizQuestionActivity : AppCompatActivity(), View.OnClickListener {
             }
         }
     }
+
+    private fun answerView(answer: Int, drawableView : Int) {
+        when(answer) {
+            1 -> optionOne?.background = ContextCompat.getDrawable(
+                this,
+                drawableView
+            )
+
+            2 -> optionTwo?.background = ContextCompat.getDrawable(
+                this,
+                drawableView
+            )
+
+            3 -> optionThree?.background = ContextCompat.getDrawable(
+                this,
+                drawableView
+            )
+
+            4 -> optionFour?.background = ContextCompat.getDrawable(
+                this,
+                drawableView
+            )
+        }
+    }
 }
